@@ -146,70 +146,8 @@ npm run dev
 
 ---
 
-## Estructura del Proyecto
 
-### Backend: `taskvault-api/`
 
-```
-src/main/java/com/example/SpringJwt/
-├── SpringJwtApplication.java          # App principal
-├── config/
-│   └── OpenApiConfig.java            # Configuración Swagger
-├── controller/
-│   ├── AuthenticationController.java   # Login & Registro
-│   ├── TaskController.java            # CRUD Tareas
-│   └── MainController.java
-├── model/
-│   ├── Users.java                     # Entidad Usuario
-│   ├── Task.java                      # Entidad Tarea
-│   ├── CustomUserDetails.java
-│   ├── Role.java                      # Roles
-│   └── enums/
-│       ├── RoleName.java   (USER, ADMIN)
-│       └── TaskStatus.java (PENDING, IN_PROGRESS, DONE)
-├── service/
-│   ├── IUserService.java             # Interface Usuarios
-│   ├── UserServiceImpl.java
-│   ├── ITaskService.java             # Interface Tareas
-│   ├── TaskServiceImpl.java
-│   └── CustomUserDetailsService.java
-├── repository/
-│   ├── IUserRepository.java
-│   ├── ITaskRepository.java
-│   └── IRoleRepository.java
-├── security/
-│   ├── JwtUtil.java                  # JWT Utilities
-│   ├── AuthTokenFilter.java          # Filtro JWT
-│   ├── AuthEntryPointJwt.java
-│   └── WebSecurityConfig.java        # Configuración Seguridad
-└── dto/
-    ├── TaskDTO.java
-    └── UserDTO.java                # Data Transfer Object
-
-```
-
-### Frontend: `taskvault-web/`
-
-```
-src/
-├── main.jsx                    # Entry Point
-├── App.jsx                     # Rutas Principales
-├── PrivateRoute.jsx            # Protección de Rutas
-├── pages/
-    ├── HomePage.jsx          # Página Login
-│   ├── LoginPage.jsx          # Página Login
-│   ├── RegisterPage.jsx       # Página Registro
-│   └── TasksPage.jsx          # Panel de Tareas
-├── components/
-│   ├── LoginForm.jsx          # Formulario Login
-│   ├── RegisterForm.jsx       # Formulario Registro  
-│   ├── TaskComponent.jsx      # Componente Tarea
-│   └── TasksAccordion.jsx     # Acordeón Tareas
-└── api/
-    ├── axios.js               # Cliente HTTP
-    ├── auth.js                # Endpoints Autenticación
-    └── task.js                # Endpoints Tareas
-```
 
 ---
 
@@ -323,8 +261,8 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
 
 **Nelson** - Desarrollador Full Stack
 
-- LinkedIn: [tu-linkedin](https://www.linkedin.com/in/nelson-soria-9a801a3a6/)
-- GitHub: [tu-github](https://github.com/SoriaN-dev)
+- LinkedIn: [linkedin](https://www.linkedin.com/in/nelson-soria-9a801a3a6/)
+- GitHub: [github](https://github.com/SoriaN-dev)
 
 ---
 
