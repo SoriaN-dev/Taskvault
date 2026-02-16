@@ -124,8 +124,7 @@ npm install
 npm run dev
 
 # La app estará en: http://localhost:5173
-
----
+```
 
 ## Capturas de Pantalla
 
@@ -144,12 +143,6 @@ npm run dev
 ### Diagrama de Base de Datos
 ![Database ERD](./docs/images/database-erd.png)
 
----
-
-
-
-
----
 
 ## Endpoints de la API
 
